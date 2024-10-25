@@ -29,7 +29,7 @@ public class InstructionScreen extends World
         // Adding a string to each index in the array screens[]
         for(int i = 0; i < screens.length; i++)
         {
-            screens[i] = "We're on screen #" + i;
+            screens[i] = "You're on screen #" + i;
         }
         
         addObject(next, 490, 350);
